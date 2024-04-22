@@ -1,0 +1,94 @@
+.container {
+  max-width: 1410px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.padd {
+  padding: 90px 0 90px;
+}
+.title {
+  font-size: 54px;
+  line-height: 122%;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  /* color: var(--bb-2); */
+}
+.subtitle {
+  font-size: 36px;
+  line-height: 122%;
+  font-weight: 700;
+}
+.subtitle-2 {
+  font-size: 28px;
+  line-height: 122%;
+  font-weight: 700;
+}
+.podsubtitle {
+  font-size: 24px;
+  line-height: 122%;
+  font-weight: 700;
+}
+.text-big {
+  font-size: 20px;
+  line-height: 150%;
+}
+.text {
+  font-size: 16px;
+  line-height: 125%;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 125%;
+  letter-spacing: 1px;
+  color: var(--st);
+  background: var(--bb);
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  min-width: 160px;
+  height: 45px;
+  /* border: 2px solid var(--st); */
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #3d3d3d;
+  color: var(--st);
+}
+/* ====== Медиа 768px ====== */
+@media (max-width: 768px) {
+  .padd {
+    padding: 50px 0 50px;
+  }
+  .title {
+    font-size: 8vw;
+    margin-bottom: 20px;
+  }
+}
+/* ====== Медиа 450px ====== */
+@media (max-width: 450px) {
+  /* .padd {
+    padding: 50px 0 0px;
+  } */
+  .title {
+    font-size: 8vw;
+  }
+}
+/* ====== Медиа 400px ====== */
+/* @media (max-width: 400px) {
+  .title {
+    font-size: 9vw;
+  }
+} */

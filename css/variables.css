@@ -1,0 +1,14 @@
+:root {
+   --burger: #ffffff;
+   /* ================== */
+   --st: #ffffff;
+   --bg-dark: #1d1d1d;
+   --bb: #5E3225;
+   --bb-1: #4d291e;
+   --bb-2: #353A4A;
+   --bb-3: #ECE5DC;
+   --bbb: #e1e1e1;
+
+   /* --bb-linear: linear-gradient(273deg, #864FF1 0%, #49B3F7 100%); */
+   /* --bb-linear-vertical: linear-gradient(180deg, #789CF1 50%, #4271DF 100%); */
+}
