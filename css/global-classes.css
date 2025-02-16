@@ -4,10 +4,10 @@
   margin: 0 auto;
 }
 .padd {
-  padding: 90px 0 90px;
+  padding: 70px 0 90px;
 }
 .title {
-  font-size: 54px;
+  font-size: 40px;
   line-height: 122%;
   font-weight: 700;
   text-align: center;
@@ -15,12 +15,12 @@
   /* color: var(--bb-2); */
 }
 .subtitle {
-  font-size: 36px;
+  font-size: 30px;
   line-height: 122%;
   font-weight: 700;
 }
 .subtitle-2 {
-  font-size: 28px;
+  font-size: 24px;
   line-height: 122%;
   font-weight: 700;
 }
@@ -38,33 +38,28 @@
   line-height: 125%;
 }
 .btn {
-  display: inline-flex;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 125%;
-  letter-spacing: 1px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
   color: var(--st);
-  background: var(--bb);
-  border-radius: 45px;
-  -webkit-border-radius: 45px;
-  -moz-border-radius: 45px;
-  -ms-border-radius: 45px;
-  -o-border-radius: 45px;
+  background: var(--bb-2);
+  border: 1px solid var(--st);
+  padding: 0 15px;
+  height: 47px;
+
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  min-width: 160px;
-  height: 45px;
-  /* border: 2px solid var(--st); */
-  border: 2px solid transparent;
   cursor: pointer;
 }
 .btn:hover {
-  background: #3d3d3d;
+  background: var(--bb-1);
   color: var(--st);
 }
 /* ====== Медиа 768px ====== */
@@ -73,8 +68,8 @@
     padding: 50px 0 50px;
   }
   .title {
-    font-size: 8vw;
-    margin-bottom: 20px;
+    font-size: 6vw;
+    margin-bottom: 20px
   }
 }
 /* ====== Медиа 450px ====== */
@@ -83,7 +78,8 @@
     padding: 50px 0 0px;
   } */
   .title {
-    font-size: 8vw;
+    font-size: 7vw;
+    margin-bottom: 15px
   }
 }
 /* ====== Медиа 400px ====== */
